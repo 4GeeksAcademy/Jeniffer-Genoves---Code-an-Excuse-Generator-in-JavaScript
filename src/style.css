@@ -1,5 +1,65 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+
+/* --- ESTILOS GENERALES --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;  
+  align-items: center;    
+  color: #333;
+}
+
+/* Contenedor principal */
+
+.container {
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Título */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2d3436;
+}
+
+/* Estilo del texto de la excusa */
+#excuse {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+ /* Botón*/
+#excuseBtn {
+  background: linear-gradient(135deg, #6c5ce7, #0984e3);
+  color: white;
+  font-size: 1rem;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* --- EFECTO AL PASAR EL MOUSE --- */
+#excuseBtn:hover {
+  background: linear-gradient(135deg, #00cec9, #6c5ce7);
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
