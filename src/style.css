@@ -45,7 +45,7 @@ h1 {
   color: #555;
 }
 
- /* Botón*/
+ /* Botón */
 #excuseBtn {
   background: linear-gradient(135deg, #6c5ce7, #0984e3);
   color: white;
@@ -57,7 +57,7 @@ h1 {
   transition: all 0.3s ease;
 }
 
-/* --- EFECTO AL PASAR EL MOUSE --- */
+/* Efecto de mouse */
 #excuseBtn:hover {
   background: linear-gradient(135deg, #00cec9, #6c5ce7);
   transform: scale(1.05);
